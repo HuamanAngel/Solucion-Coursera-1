@@ -1,0 +1,70 @@
+.title-principal {
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.card-coursera {
+    float: right;
+    width: 29%;
+    background-color: rgba(153, 153, 153, 1);
+    border: 2px solid black;
+    padding: 0px 0px 0px 10px;
+    margin-right: 20px;
+}
+
+.title-card-coursera {
+    padding: 2px;
+    border: 2px solid black;
+    text-align: center;
+    overflow: hidden;
+    float: right;
+    min-width: 100px;
+    margin: 0px 0px 0px 0px;
+}
+
+.para-card-coursera {
+    clear: both;
+    padding: 5px 10px 0px 0px;
+}
+
+#chicken {
+    background-color: rgba(213, 152, 152, 1);
+    color: black;
+    font-weight: bold;
+}
+
+#beef {
+    background-color: rgba(193, 69, 67, 1);
+    color: white;
+    font-weight: bold;
+}
+
+#sushi {
+    background-color: rgba(229, 209, 152, 1);
+    color: black;
+    font-weight: bold;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .card-coursera {
+        float: right;
+        width: 45%;
+        margin-top: 20px;
+        margin-right: 20px;
+    }
+    #card-coursera-3 {
+        clear: both;
+        width: 94%;
+    }
+}
+
+@media (max-width: 767px) {
+    .card-coursera {
+        clear: both;
+        width: 94%;
+        margin-top: 20px;
+        margin-right: 5px;
+        margin-left: 5px;
+    }
+}
